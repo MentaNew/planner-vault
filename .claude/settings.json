@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit(Agent/**)",
+      "Write(Agent/**)",
+      "Edit(Daily/**)",
+      "Write(Daily/**)",
+      "Edit(Tasks/**)",
+      "Write(Tasks/**)",
+      "Bash(date:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ],
+    "deny": [
+      "Bash(rm:*)",
+      "Bash(git push:*)",
+      "Bash(git reset:*)",
+      "Bash(git clean:*)",
+      "Bash(git checkout:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Edit(Roadmap/**)",
+      "Write(Roadmap/**)",
+      "Edit(Templates/**)",
+      "Write(Templates/**)"
+    ]
+  }
+}
